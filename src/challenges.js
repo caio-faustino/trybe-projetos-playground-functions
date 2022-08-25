@@ -20,12 +20,13 @@ function splitSentence(string) {
 function concatName(array) {
   // seu código aqui
   let concatArray = array[array.length - 1];
-  return concatArray + ', ' + array[0]
+  return concatArray + ', ' + array[0];
 }
 
 // Desafio 5
-function footballPoints() {
+function footballPoints(win, tie) {
   // seu código aqui
+  return (win*3 + tie);
 }
 
 // Desafio 6
